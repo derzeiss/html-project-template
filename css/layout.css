@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: clamp(16px, 5vw, 64px);
+  padding-right: clamp(16px, 5vw, 64px);
+}
+
+.section {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  scroll-margin-top: 2rem;
+}
+
+.section--first {
+  margin-top: 4rem;
+}
+
+.section__title {
+  margin-bottom: 1.5rem;
+}
+
+.section__subtitle {
+  max-width: 40rem;
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
+
+  font-size: 1.125rem;
+  line-height: 1.5em;
+
+  color: var(--text-500);
+}

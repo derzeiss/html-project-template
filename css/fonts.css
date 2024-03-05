@@ -1,0 +1,18 @@
+/**
+Place your webfont code in here.
+You can use google fonts (https://fonts.google.com) to search for cool fonts
+and then use the google-webfonts helper (https://gwfh.mranftl.com/fonts)
+to download them (otherwise your website haas google cookies,
+which you usually don't want.
+*/
+
+/**
+Webfont definitions in here could look something like this:
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v20-latin/poppins-v20-latin-regular.woff2") format("woff2");
+}
+*/

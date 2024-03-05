@@ -1,0 +1,23 @@
+/**
+Starting file to import all the other css resources.
+You could also create subfolders inside css/ for all 
+the different categories as your project grows 
+(i.e. resources, resets, components, pages).
+*/
+
+/* resources */
+@import "./fonts.css";
+
+/* imports & resets */
+@import "./_config.css";
+@import "./reset.css";
+@import "./layout.css";
+
+/* components */
+@import "./button.css";
+@import "./form-elements.css";
+@import "./page-footer.css";
+@import "./page-header.css";
+
+/* page styles */
+@import "./demo-page.css"; /* REMOVE BEFORE FLIGHT */
