@@ -1,6 +1,7 @@
 *,
 *:before,
 *:after {
+  position: relative;
   margin: 0;
   padding: 0;
   vertical-align: baseline;
@@ -64,6 +65,7 @@ img {
 input {
   font: inherit;
   border: none;
+  color: inherit;
   background: none;
 }
 
@@ -125,5 +127,5 @@ code {
   font-family: monospace;
 
   border-radius: 0.25em;
-  background: var(--neutral-100);
+  background: var(--text-100);
 }
